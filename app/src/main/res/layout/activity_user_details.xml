@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_user_details.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UserDetailsActivity">
+
+    <!-- RecyclerView to display transactions -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/transactionRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        android:layout_above="@id/addTransactionBtn"/>
+
+    <!-- Button to add transaction -->
+    <Button
+        android:id="@+id/addTransactionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Add Transaction"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="16dp" />
+
+</RelativeLayout>

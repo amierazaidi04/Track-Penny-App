@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/records"
+        android:title="Records"
+        android:icon="@drawable/records_icon" />
+
+    <item
+        android:id="@+id/budget"
+        android:title="Budget"
+        android:icon="@drawable/budget_icon" />
+
+    <item
+        android:id="@+id/category"
+        android:title="Category"
+        android:icon="@drawable/category_icon" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/settings_icon" />
+
+</menu>
+
+

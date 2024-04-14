@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/select_category"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/categoriesLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/category_margin_bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Remove the TextView here, as it seems unnecessary -->
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="?android:selectableItemBackground">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/darkBlue"
+        android:text="Date"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:text="Grocery"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/category"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:text="- RM6.99"
+        android:textColor="@android:color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category"
+        android:layout_alignStart="@id/category"
+        android:layout_alignEnd="@id/amount"
+        android:layout_marginTop="4dp"
+        android:text="Milk"
+        android:textColor="@color/textMain"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/description"
+        android:src="@drawable/baseline_delete_24"
+        android:contentDescription="Delete Transaction"
+        android:layout_alignStart="@id/category" />
+
+</RelativeLayout>

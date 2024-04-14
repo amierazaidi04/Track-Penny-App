@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define array of category options -->
+    <string-array name="categories_array">
+        <item>Grocery</item>
+        <item>Pets</item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Beauty</item>
+        <item>Garden</item>
+        <item>Electronics</item>
+        <item>Books</item>
+        <item>Sports</item>
+        <item>Travel</item>
+        <item>Automotive</item>
+        <item>Entertainment</item>
+        <item>Finance</item>
+        <item>Education</item>
+        <item>DIY</item>
+        <item>Art</item>
+        <item>Tech</item>
+        <item>Family</item>
+        <item>Events</item>
+        <item>Work</item>
+        <item>Social</item>
+        <item>Appliances</item>
+        <item>Outdoors</item>
+        <item>Wellness</item>
+        <item>Environment</item>
+        <item>Community</item>
+    </string-array>
+</resources>
+
